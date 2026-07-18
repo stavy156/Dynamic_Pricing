@@ -38,6 +38,7 @@ Run the Flask server locally:
 python application.py
 ```
 The server will start on http://127.0.0.1:5000.
+or on the browser run this - http://127.0.0.1:5000/predict?genre_sentiment=0.35&competitor_price=750&web_demand=82 ---can change values
 
 ### 3. API Endpoints
 
