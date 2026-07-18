@@ -53,3 +53,23 @@ The server will start on http://127.0.0.1:5000.
     * `competitor_price`: Float representing competitor ticket price.
     * `web_demand`: Float between 10 and 100 representing Google Trends demand.
   * Description: Returns dynamic price recommendations from both the Linear Regression and Q-Learning models.
+
+### Terminal and running stats -
+* PS C:\Users\Stavya> cd C:\Java_DSA\DynamicPrice_project
+* PS C:\Java_DSA\DynamicPrice_project> C:\msys64\ucrt64\bin\python.exe train_models.py
+Starting training pipeline...
+Initiating Selenium scraper for BookMyShow...
+Error during scraping (will use fallback event list): Message:
+Using fallback/base events list.
+Generated 1200 training samples.
+Linear Regression R2 Score: 0.9955
+Linear Regression RMSE: 15.3989
+Model successfully saved to model.joblib
+Q-Learning Policy generated.
+Data and Q-table successfully saved.
+
+* PS C:\Java_DSA\DynamicPrice_project> C:\msys64\ucrt64\bin\python.exe application.py
+Successfully loaded Linear Regression model.
+Successfully loaded Q-learning Table.
+ * Serving Flask app 'application'
+ * Debug mode: on
