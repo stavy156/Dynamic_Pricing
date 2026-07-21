@@ -74,3 +74,4 @@ Successfully loaded Linear Regression model.
 Successfully loaded Q-learning Table.
  * Serving Flask app 'application'
  * Debug mode: on
+how to run the app in web is in the domain up there
